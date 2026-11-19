@@ -1,0 +1,28 @@
+{
+  "name": "findat-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs --dev",
+    "build": "vite build",
+    "smoke": "node scripts/smoke.mjs",
+    "test:react": "node scripts/react-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "simple-icons": "^16.38.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.12",
+    "@vitejs/plugin-react": "^6.3.0",
+    "jsdom": "^31.0.1",
+    "vite": "^8.3.8"
+  }
+}
